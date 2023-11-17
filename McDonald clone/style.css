@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+
+    overflow-x: hidden;
+}
+
+header {
+    height: 115px;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    /* align-items: center; */
+
+}
+
+/* Mcdonald logo  */
+.nav-logo {
+    height: 95%;
+    width: 10%;
+    margin-top: 5px;
+}
+
+/* nav paner  */
+.nav-panel {
+    width: 65vw;
+    margin-left: 5px;
+}
+
+.upper-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+.left {
+    display: flex;
+
+}
+
+.left p {
+    padding: 15px;
+}
+
+.right {
+    display: flex;
+}
+
+.right p {
+    padding: 15px;
+}
+
+/* Lover nav  */
+.lower-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.nav-menu {
+    border: none;
+    font-size: 18px;
+}
+
+/* McDelivery  */
+
+.nav-delivery {
+    background-color: #ffbc0d;
+    border: 2px solid #ffbc0d;
+    height: 41px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 9px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.nav-delivery:hover{
+
+background-color: transparent;
+
+}
+
+/* Media queries for nav bar  */
+
+@media only screen and (min-width:967px) and (max-width:1120px) {}
+
+
+
+.hero-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.hero-section img {
+    height: 80vh;
+    width: 90vw;
+
+}
+
+
+/* Content section  */
+.content-section {
+    height: 200vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.main-container {
+    /* border: 1px solid black; */
+    height: 196vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+
+}
+
+.container {
+    height: 92vh;
+    border: 0.1px solid rgb(150, 149, 149);
+    border-radius: 4px;
+    width: 29vw;
+
+
+}
+
+.container img {
+    height: 38vh;
+    width: 29vw;
+
+}
+
+.h-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: #db0007;
+}
+
+.text-container {
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24vw;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.container p {
+    font-size: 18px;
+    height: 16vh;
+    width: 23vw;
+}
+
+.container button {
+    font-size: 16px;
+    height: 9vh;
+    width: 10vw;
+    margin-left: 30%;
+    border-radius: 7px;
+    border: 2px solid #ffbc0d;
+    background-color: #ffbc0d;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.container button:hover{
+
+    background-color: transparent;
+}
+
+
+/* Footer  */
+.foot-section {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.foot-container {
+    /* border: 1px solid black; */
+    height: 60vh;
+    width: 90vw;
+}
+
+.foot-info {
+    display: flex;
+
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* padding-top: 5px; */
+}
+
+.info-1 {
+    height: 20vh;
+    width: 21vw;
+    /* padding-top: 5px; */
+}
+.info-1 h3{
+margin-top: 4vh;
+    
+
+}
+.info-1 p{
+margin-top: 10px;
+    padding-top: 2px;
+
+}
+.info-logo{
+    
+    width: 90vw;
+    height: 15vh;
+}
+.info-logo img{
+   margin-top: 3vh;
+   padding-left: 75vw;
+}
+.foot-copy{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-contact{
+    display: flex;
+}
+.foot-contact p{
+padding: 20px;
+font-size: 18px;
+margin-top: 10px;
+}
+.foot-content{
+    margin-top: 25px;
+    font-size: 18px;
+    width: 30vw;
+}
+
+p{
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+p:hover{
+
+    color: red;
+}

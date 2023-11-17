@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <nav>
+        <ul id='ul'>
+            <a href='#home'>
+                <li>Home</li>
+            </a>
+            <a href='#about'>
+                <li>About</li>
+            </a>
+            <a href='#works'>
+                <li>Works</li>
+            </a>
+            <a href='#contact'>
+                <li>Contact</li>
+            </a>
+        </ul>
+
+        <div class="name">
+            <a href='/'><label> Kamran</label></a>
+            <img src="./images/pic-logo.png" alt="menu1" width="60px" height="60px" />
+        </div>
+
+        <div class="menubar" onClick={showmenu}>
+            <img src="./images/menu1.png" alt="menu" width="50px" height="80px" />
+        </div>
+    </nav>
+    <!-- container  -->
+
+    <div class="mainContainer1" id="home" >
+        <div class="image-container" data-aos="fade-right" data-aos-duration="2000">
+            <img src="./images/pic2.png" alt="Pic" class='container-img' />
+        </div>
+        <div class="content-container" data-aos="fade-right" data-aos-duration="2000">
+            <p class='welcome'>WELCOME TO MY WORLD </p>
+            <h1 class='container-name'>Hi, I'm <span class='red-container'> Kamran Sajjad </span> </h1>
+            <h2 class='field-container'>a FrontEnd Developer </h2>
+            <p class='text-container'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi assumenda,
+                laborum consequuntur iure consequatur quam! Dolor aspernatur quisquam
+                explicabo numquam provident.</p>
+
+        </div>
+        <div class="socialmedia"  data-aos="fade-left" data-aos-duration="2000">
+            <a href="https://instagram.com/kamran973_1?igshid=OGQ5ZDc2ODk2ZA=="><img src="./images/instagram.png" alt="instagram" /></a>
+            <a href="https://www.linkedin.com/in/kamran2003?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./images/linkedin.png" alt="linkedin" /></a>
+            <a href="/"><img src="./images/whatsapp.png" alt="whatsapp" /></a>
+            <a href="/"><img src="./images/gmail.png" alt="Email us" /></a>
+        </div>
+
+    </div>
+    <!-- About  -->
+
+    <div class="container" id="about"  >
+        <h2 class="title">About Me</h2>
+        <div class="section" >
+            <div class="imgSection" data-aos="fade-right" data-aos-duration="2000">
+                <img src="./images/giphy.gif" alt="Pic" class="container_img" />
+            </div>
+            <div class="contentSection" data-aos="fade-left" data-aos-duration="2000">
+                <h3>Hi There</h3>
+                <div class="content">
+                    <p>My name is Kamran Sajjad. I am a Web developer, and I'm very passionate and dedicated to my work.
+                        I really enjoy making and programming things with computers.</p>
+                    <p>I'm always learning and trying new things in the world of software. When I'm not doing that, I
+                        like to explore new tech ideas
+                        and solve fun coding puzzles. I'm excited about where my software journey will take me!"</p>
+                </div>
+
+                <div class="info">
+                    <p>Contact: <br /><span>0306 5685963 </span></p>
+                    <!-- <p>Email: <br /><span> kami99</span></p> -->
+                    <p>Email: <br /><span> kamransajjad973@gmail.com</span></p>
+                    <!-- <hr /> -->
+                </div>
+                <a  href="cv/cv.pdf" download><button>Download CV</button></a>
+
+            </div>
+        </div>
+        <div class="baar">
+            <p>Let’s Work Together On Your Next Project!</p>
+            <img src="./images/laptop.jpeg" alt="Pic" class="baar_imgs" data-aos="flip-up" data-aos-duration="2000"/>
+            <button><a href="#contact">Hire Me Now</a></button>
+        </div>
+    </div>
+
+
+
+    <!-- ----education--------- -->
+
+    <div class="education-container" id="works">
+        <h1 class="heading">Education</h1>
+        <div class="tag-section" >
+            <div class="Tag" data-aos="zoom-in" data-aos-duration="1000">
+                <h2>Matric</h2>
+                <p>I have done my matriculation from MY School and obtained good grades.</p>
+            </div>
+            <div class="Tag" data-aos="zoom-in" data-aos-duration="2000">
+                <h2>FSC</h2>
+                <p>I have done FSC Pre Engineering with scholarship from Punjab College. </p>
+            </div>
+            <div class="Tag" data-aos="zoom-in" data-aos-duration="3000">
+                <h2>BSSE</h2>
+                <p>Currently i am doing Software Engineering (BSSE) from the University of Central Punjab Lahore
+                    with scholarship.</p>
+            </div>
+        </div>
+        <h1 class="heading">My Skills</h1>
+        <div class="skill-section" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="skill">
+                <h2>React Developer</h2>
+                <p>I always learn about the newest web tech, currently busy with React.js.</p>
+            </div>
+            <div class="skill">
+                <h2>Web Developer</h2>
+                <p>As a self-driven learner, I eagerly embrace opportunities to stay updated on the latest web
+                    development trends. </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Contact  -->
+
+    <div class="container1" id="contact">
+        <h1 class="heading">Get in Touch </h1>
+
+        <div class="media" >
+            <div class="address" data-aos="flip-left" data-aos-duration="1000">
+                <img src="./images/address1.png" alt="linkedin" />
+                <h5>Address</h5>
+                <p>Johar Town </p>
+                <p> Lahore</p>
+            </div>
+            <div class="phone" data-aos="flip-left" data-aos-duration="2000">
+                <img src="./images/telephone.png" alt="whatsapp" />
+                <h5>Phone</h5>
+                <p>+92 306 5685963</p>
+                <p>+92 322 6491295</p>
+            </div>
+            <div class="email" data-aos="flip-left" data-aos-duration="3000">
+                <img src="./images/unread.png" alt="Email us" />
+                <h5>Email</h5>
+                <!-- <p>hello</p>
+                <p>kami99</p> -->
+                <p>l1f21bsse0452@ucp.edu.pk </p>
+                <p>kamransajjad973@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="socialmedia1" data-aos="zoom-in-up" data-aos-duration="3000">
+            <a href="https://instagram.com/kamran973_1?igshid=OGQ5ZDc2ODk2ZA=="><img src="./images/instagram.png" alt="instagram" /></a>
+            <a href="https://www.linkedin.com/in/kamran2003?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./images/linkedin.png" alt="linkedin" /></a>
+            <a href="/"><img src="./images/whatsapp.png" alt="whatsapp" /></a>
+            <a href="/"><img src="./images/gmail.png" alt="Email us" /></a>
+        </div>
+    </div>
+
+    <div class="copyRight">
+        <p>© 2023 KamranSajjad, All Rights Reserved</p>
+    </div>
+</body>
+
+</html>
